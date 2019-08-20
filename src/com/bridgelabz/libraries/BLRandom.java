@@ -113,7 +113,7 @@ public class BLRandom {
             a[r] = temp;
         }
     }
-    ublic static void shuffle(Object[] a) {
+    public static void shuffle(Object[] a) {
         validateNotNull(a);
         int n = a.length;
         for (int i = 0; i < n; i++) {
