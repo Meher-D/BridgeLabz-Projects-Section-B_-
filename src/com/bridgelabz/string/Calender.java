@@ -1,12 +1,13 @@
 package com.bridgelabz.string;
-
 import java.util.Scanner;
+
+import com.bridgelabz.utility.UtilityMath;
 
 public class Calender {
 
 	public static void main(String[] args) {
 
-		Utility utilityMath = new Utility();
+		UtilityMath utilityMath = new UtilityMath();
 		Scanner scanner = new Scanner(System.in);
 		int month, year;
 		boolean leapYear;

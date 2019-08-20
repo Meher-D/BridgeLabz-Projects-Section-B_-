@@ -2,13 +2,15 @@ package com.bridgelabz.string;
 
 import java.util.Scanner;
 
+import com.bridgelabz.utility.UtilityMath;
+
 
 
 public class Palin {
 
 	public static void main(String[] args) {
 
-		Utility utilityMath=new UtilityMath();
+		UtilityMath utilityMath = new UtilityMath();
 		Scanner scanner=new Scanner(System.in);
 		String str;
 		

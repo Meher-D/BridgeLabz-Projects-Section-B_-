@@ -2,12 +2,13 @@ package com.bridgelabz.string;
 
 import java.util.Scanner;
 
-import com.bridgelabz.utility.Utility;
+
+import com.bridgelabz.utility.UtilityMath;
 
 public class StringFunctions {
 
 	public static void main(String[] args) {
-		Utility utility = new Utility();    
+		UtilityMath utilityMath = new UtilityMath();
 		 Scanner scanner=new Scanner(System.in);
 			String str1,str2;
 			
@@ -19,7 +20,7 @@ public class StringFunctions {
 			str2=scanner.next();
 			str1Arr=str1.toCharArray();
 			str2Arr=str2.toCharArray();
-			if(utility.findStringAnagram(str1Arr,str2Arr)) {
+			if(utilityMath.findStringAnagram(str1Arr,str2Arr)) {
 				System.out.println("Strings are anagram");
 			}else {
 				System.out.println("Strings are not anagram");

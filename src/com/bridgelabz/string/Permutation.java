@@ -2,12 +2,13 @@ package com.bridgelabz.string;
 
 import java.util.Scanner;
 
-import com.bridgelabz.utility.Utility;
+
+import com.bridgelabz.utility.UtilityMath;
 
 public class Permutation {
 
 	public static void main(String[] args) {
-		Utility utility = new Utility();    
+		UtilityMath utilityMath = new UtilityMath();
 		String str;
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter String");
@@ -15,10 +16,10 @@ public class Permutation {
 		int strLength=str.length()-1;
 		//Permutation with recursion
 		System.out.println("Printing Recursive Permutation");
-		utility.permutationRecursion(str, 0, strLength);
+		utilityMath.permutationRecursion(str, 0, strLength);
 		
 		System.out.println("Printing Iterative Permutation");
-		utility.permutationIterative(str);
+		utilityMath.permutationIterative(str);
 		scanner.close();
 
 	}
